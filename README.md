@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3699-number-of-zigzag-arrays-i](https://github.com/silentshivam00/leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/silentshivam00/leetcode/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/silentshivam00/leetcode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/silentshivam00/leetcode/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/silentshivam00/leetcode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Array
 |  |
 | ------- |
