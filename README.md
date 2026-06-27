@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/silentshivam00/leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/silentshivam00/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/silentshivam00/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/silentshivam00/leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Hash Table
@@ -53,4 +54,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/silentshivam00/leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+## Two Pointers
+|  |
+| ------- |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/silentshivam00/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+## Binary Search
+|  |
+| ------- |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/silentshivam00/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+## Greedy
+|  |
+| ------- |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/silentshivam00/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+## Sorting
+|  |
+| ------- |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/silentshivam00/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 <!---LeetCode Topics End-->
