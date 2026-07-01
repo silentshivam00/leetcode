@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/silentshivam00/leetcode/tree/master/0210-course-schedule-ii) |
 | [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Breadth-First Search
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/silentshivam00/leetcode/tree/master/0210-course-schedule-ii) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Union-Find
 |  |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/silentshivam00/leetcode/tree/master/0210-course-schedule-ii) |
 | [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Matrix
@@ -123,4 +126,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/silentshivam00/leetcode/tree/master/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
