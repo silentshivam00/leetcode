@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
+| [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
@@ -105,9 +106,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
