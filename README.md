@@ -91,12 +91,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
 | [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Union-Find
 |  |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
 | [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1971-find-if-path-exists-in-graph](https://github.com/silentshivam00/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Matrix
@@ -116,4 +119,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/silentshivam00/leetcode/tree/master/1192-critical-connections-in-a-network) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/silentshivam00/leetcode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
