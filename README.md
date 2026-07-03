@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/silentshivam00/leetcode/tree/master/0001-two-sum) |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/silentshivam00/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/silentshivam00/leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/silentshivam00/leetcode/tree/master/0001-two-sum) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/silentshivam00/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/silentshivam00/leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/silentshivam00/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
