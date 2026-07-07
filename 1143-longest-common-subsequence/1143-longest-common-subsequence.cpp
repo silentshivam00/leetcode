@@ -67,9 +67,40 @@ public:
                 dp[i][j] = ans;                
             }
         }
-
         return dp[0][0];
     }
+
+    //space optimization method
+    int solveUsingTabSO(string &text1 , string &text2 , int i , int j){
+        int n1 = text1.length();
+        int n2 = text2.length();
+
+        vector<int> prev(n2+1 , 0);
+        vector<int> curr(n2+1 , 0);
+
+        //step 3-> reverse kro aur loop chalao
+        //i ->[0 to n1]
+        //j ->[0 to n2]
+        for(int i = n1-1; i>=0; i--){
+            for(int j = n2-1; j>=0; j--){
+                int ans = 0;
+                if(text1[i] == text2[j]){
+                    //match
+                    ans = 1 + prev[j+1];
+                }
+                else{
+                    //no match
+                    ans = 0 + max(prev[j] , curr[j+1]);
+                }  
+                curr[j] = ans;          
+            }
+            //update krdo
+            prev = curr;
+        }
+
+        return prev[0];
+    }
+
 
     int longestCommonSubsequence(string text1, string text2) {
         int i = 0;
@@ -83,7 +114,9 @@ public:
         // vector<vector<int>> dp(n1+1 , vector<int>(n2+1 , -1));
         // return solveUsingMemo(text1 , text2 , i , j , dp);
 
-        return solveUsingTab(text1 , text2 , i , j);
+        // return solveUsingTab(text1 , text2 , i , j);
+
+        return solveUsingTabSO(text1 , text2 , i , j);
 
     }
 };
