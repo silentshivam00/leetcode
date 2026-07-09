@@ -112,7 +112,6 @@ public:
         vector<int>currRow(n+1,0);
 
         //step 3-> reverse kro loop chalao
-        //In recursion solution
         // curr => 0 to n
         // prev => -1 to curr 
 
@@ -136,6 +135,30 @@ public:
         return currRow[0]; // dp[0][0]
     }
 
+    //most Optimal solution ->Binary search LIS
+    int BinaryLIS(vector<int> &nums){
+        int n = nums.size();
+
+        if(nums.size() == 0) return 0;
+
+        vector<int> ans;
+        ans.push_back(nums[0]);
+
+        for(int i=1; i<n; i++){
+            if(nums[i] > ans.back()){
+                //include
+                ans.push_back(nums[i]);
+            }
+            else{
+                //overwrite
+                //find index of just bada element of this element
+                int index = lower_bound(ans.begin() , ans.end() , nums[i]) - ans.begin();
+                ans[index] = nums[i];
+            }
+        }
+        return ans.size();
+    }
+
 
     int lengthOfLIS(vector<int>& nums) {
         int curr = 0;
@@ -152,7 +175,9 @@ public:
 
         // return solveTabSO(nums);
 
-        return solveTabSO2(nums);
+        // return solveTabSO2(nums);
+
+        return BinaryLIS(nums);
 
     }
 };
