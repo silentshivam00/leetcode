@@ -104,6 +104,39 @@ public:
         return prevRow[0]; // dp[0][0]
     }
 
+    int solveTabSO2(vector<int> &nums){
+        
+        int n = nums.size();
+
+        // vector<int>prevRow(n+1,0);
+        vector<int>currRow(n+1,0);
+
+        //step 3-> reverse kro loop chalao
+        //In recursion solution
+        // curr => 0 to n
+        // prev => -1 to curr 
+
+        for(int curr = n-1; curr>=0; curr--){
+            for(int prev = -1; prev<=curr-1; prev++){
+                int inc = 0;
+                if(prev == -1 || nums[curr] > nums[prev]){
+                    //include
+                    inc = 1 + currRow[curr+1];
+                }
+                //exclude
+                int exc = 0 + currRow[prev+1];
+
+                //step 2 -> ans ko dp me store kro aur return kro
+                currRow[prev+1] = max(inc , exc);
+            }
+            //update
+            // prevRow = currRow;
+        }
+
+        return currRow[0]; // dp[0][0]
+    }
+
+
     int lengthOfLIS(vector<int>& nums) {
         int curr = 0;
         int prev = -1;
@@ -117,7 +150,9 @@ public:
 
         // return solveTab(nums);
 
-        return solveTabSO(nums);
+        // return solveTabSO(nums);
+
+        return solveTabSO2(nums);
 
     }
 };
