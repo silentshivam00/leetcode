@@ -115,7 +115,9 @@ public:
         // vector<vector<int>> dp(n+1 , vector<int>(n+1 , -1));
         // return solveMem(nums , curr , prev , dp);
 
-        return solveTab(nums);
+        // return solveTab(nums);
+
+        return solveTabSO(nums);
 
     }
 };
