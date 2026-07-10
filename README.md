@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/silentshivam00/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/silentshivam00/leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1143-longest-common-subsequence](https://github.com/silentshivam00/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/silentshivam00/leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/silentshivam00/leetcode/tree/master/1691-maximum-height-by-stacking-cuboids) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/silentshivam00/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/silentshivam00/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/silentshivam00/leetcode/tree/master/0354-russian-doll-envelopes) |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1288-remove-covered-intervals](https://github.com/silentshivam00/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/silentshivam00/leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/silentshivam00/leetcode/tree/master/1691-maximum-height-by-stacking-cuboids) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/silentshivam00/leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/silentshivam00/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Sorting
@@ -202,4 +205,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
+## Stack
+|  |
+| ------- |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 <!---LeetCode Topics End-->
