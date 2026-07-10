@@ -16,7 +16,7 @@ public:
         return ans;
     }
 
-
+    //top down
     int solveUsingMem(vector<int>& arr , map<pair<int ,int> , int> &maxi , int s , int e , vector<vector<int>> &dp){
         //Base case
         if( s>= e) return 0;
@@ -34,6 +34,32 @@ public:
         }
         dp[s][e] = ans;
         return dp[s][e];
+    }
+
+    //bottom up
+    int solveUsingTab(vector<int>& arr , map<pair<int ,int> , int> &maxi){
+        int n = arr.size();
+        //step 1 and 2
+        vector<vector<int>> dp(n+1 , vector<int>(n+1 , 0));
+
+        //step 3
+        for(int s = n-1; s>=0; s--){
+            for(int e = s; e<=n-1; e++){
+                if(s >= e) continue;
+                else{
+                    int ans = INT_MAX;
+                    for(int i=s; i<e; i++){
+                        int leftKaMax = maxi[{s , i}];
+                        int rightKaMax = maxi[{i+1 , e}];
+                        int NonLeafNode = leftKaMax*rightKaMax;
+
+                        ans = min(ans , NonLeafNode + dp[s][i] + dp[i+1][e]);
+                    }
+                    dp[s][e] = ans;
+                }
+            }
+        }
+        return dp[0][n-1];
     }
 
     int mctFromLeafValues(vector<int>& arr) {
