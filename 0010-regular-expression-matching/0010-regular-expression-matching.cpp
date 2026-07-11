@@ -55,7 +55,6 @@ public:
 
 
     bool solveUsingTab(string &s , string &p , int m , int n){
-
         //step 1
         vector<vector<int>> dp(m+1 , vector<int>(n+1 , 0));
         //step 2
@@ -85,6 +84,46 @@ public:
         return dp[0][0];
     }
 
+    bool solveUsingTabSO(string &s , string &p , int m , int n){
+        //step 1
+        // vector<vector<int>> dp(m+1 , vector<int>(n+1 , 0));
+        vector<int> prev(n+1 , 0);
+        vector<int> curr(n+1 ,0);
+        //step 2
+        prev[n] = true;
+
+        //step 3
+        for(int i = m; i>=0; i--){
+            //if i == m means s string puri ho gyi h
+            //agar s aur p dono complet ho jaye to true krdo
+            if(i == m) curr[n] = true;
+            else curr[n] = false;
+
+            for(int j = n-1; j>=0; j--){
+                bool currMatch = (i < s.length()) && (p[j] == '.' || s[i] == p[j]);
+                bool ans;
+                if(j+1 < p.length() && p[j+1] == '*'){
+                    bool replaceWtihempty = curr[j+2];
+                    bool replaceWithPreceding = (currMatch && prev[j]);
+                    ans = replaceWtihempty || replaceWithPreceding;
+                }
+                else if(currMatch){
+                    ans = prev[j+1];
+                }
+                else{
+                    // no match
+                    ans = false;
+                }
+
+                curr[j] = ans;
+            }
+            //shifting
+            prev = curr;
+        }
+        return prev[0];
+    }
+
+
     bool isMatch(string s, string p) {
         
         // return solveUsingRE(s , p , 0 ,0);
@@ -96,7 +135,9 @@ public:
         // vector<vector<int>> dp(m+1 , vector<int>(n+1 , -1));
         // return solveUsingMem(s , p , 0 ,0 ,dp);
 
-        return solveUsingTab(s , p , m ,n);
+        // return solveUsingTab(s , p , m ,n);
+
+        return solveUsingTabSO(s , p , m ,n);
 
     }
 };
