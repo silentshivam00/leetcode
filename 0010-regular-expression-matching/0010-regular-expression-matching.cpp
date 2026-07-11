@@ -53,6 +53,38 @@ public:
 
     }
 
+
+    bool solveUsingTab(string &s , string &p , int m , int n){
+
+        //step 1
+        vector<vector<int>> dp(m+1 , vector<int>(n+1 , 0));
+        //step 2
+        dp[m][n] = true;
+
+        //step 3
+        for(int i = m; i>=0; i--){
+            for(int j = n-1; j>=0; j--){
+                bool currMatch = (i < s.length()) && (p[j] == '.' || s[i] == p[j]);
+                bool ans;
+                if(j+1 < p.length() && p[j+1] == '*'){
+                    bool replaceWtihempty = dp[i][j+2];
+                    bool replaceWithPreceding = (currMatch && dp[i+1][j]);
+                    ans = replaceWtihempty || replaceWithPreceding;
+                }
+                else if(currMatch){
+                    ans = dp[i+1][j+1];
+                }
+                else{
+                    // no match
+                    ans = false;
+                }
+
+                dp[i][j] = ans;
+            }
+        }
+        return dp[0][0];
+    }
+
     bool isMatch(string s, string p) {
         
         // return solveUsingRE(s , p , 0 ,0);
@@ -61,8 +93,10 @@ public:
         int n = p.length();
 
         //step 1
-        vector<vector<int>> dp(m+1 , vector<int>(n+1 , -1));
-        return solveUsingMem(s , p , 0 ,0 ,dp);
+        // vector<vector<int>> dp(m+1 , vector<int>(n+1 , -1));
+        // return solveUsingMem(s , p , 0 ,0 ,dp);
+
+        return solveUsingTab(s , p , m ,n);
 
     }
 };
