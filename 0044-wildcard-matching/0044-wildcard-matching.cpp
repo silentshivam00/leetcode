@@ -11,8 +11,8 @@ public:
             for(int k=j; k<p.length(); k++){
                 if(p[k] != '*') //sare character '* h , to hum unhe empty se replace kr skte h
                     return false;
-                else return true;
             }
+            return true;
         }
 
         //main Logic
@@ -64,17 +64,61 @@ public:
 
         dp[i][j] = ans;
         return dp[i][j];
-    }    
+    }   
 
-    bool isMatch(string s, string p) {
+    bool solveUsingTab(string s , string p){
         int m = s.length();
         int n = p.length();
+        //step 1
+        vector<vector<int>> dp(m+1 , vector<int>(n+1 , 0));
+
+        //step 2
+        dp[m][n] = true;
+        
+        for(int col =0; col<n; col++){
+            bool flag = true;
+            for(int k=col; k<p.length(); k++){
+                if(p[k] != '*'){ //sare character '* h , to hum unhe empty se replace kr skte h
+                    flag = false;
+                    break;
+                }    
+            }
+            dp[m][col] = flag;    
+        }
+
+        //step 3
+        for(int i =m-1; i>=0; i--){
+            for(int j =n; j>=0; j--){
+                bool ans;
+                if(p[j] == '?' || s[i] == p[j]){
+                    ans = dp[i+1][j+1];
+                }
+                else if(p[j] == '*'){
+                    //'*' empty string bhi ban skta h ya kuch aur bhi character ban skta h
+                    ans = dp[i+1][j] || dp[i][j+1];
+                }
+                else{
+                    //no matching
+                    ans = false;
+                }
+
+                dp[i][j] = ans;
+            }
+        }
+        return dp[0][0];
+    }
+
+    bool isMatch(string s, string p) {
+        // int m = s.length();
+        // int n = p.length();
 
         // return solveUsingRE(s , p , 0 , 0);
 
         //step 1
-        vector<vector<int>> dp(m+1 , vector<int>(n+1 , -1));
-        return solveUsingMem(s , p , 0 , 0 , dp);
+        // vector<vector<int>> dp(m+1 , vector<int>(n+1 , -1));
+        // return solveUsingMem(s , p , 0 , 0 , dp);
+
+        return solveUsingTab(s , p);
 
     }
 };
