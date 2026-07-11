@@ -108,6 +108,52 @@ public:
         return dp[0][0];
     }
 
+    //space optimzation
+    bool solveUsingTabSO(string s , string p){
+        int m = s.length();
+        int n = p.length();
+
+        vector<int> prev(n+1 , 0);
+        vector<int> curr(n+1 , 0);
+    
+        prev[n] = true;
+        
+        for(int col =0; col<n; col++){
+            bool flag = true;
+            for(int k=col; k<p.length(); k++){
+                if(p[k] != '*'){ //sare character '* h , to hum unhe empty se replace kr skte h
+                    flag = false;
+                    break;
+                }    
+            }
+            prev[col] = flag;    
+        }
+
+        //step 3
+        for(int i =m-1; i>=0; i--){
+            for(int j =n; j>=0; j--){
+                bool ans;
+                if(p[j] == '?' || s[i] == p[j]){
+                    ans = prev[j+1];
+                }
+                else if(p[j] == '*'){
+                    //'*' empty string bhi ban skta h ya kuch aur bhi character ban skta h
+                    ans = prev[j] || curr[j+1];
+                }
+                else{
+                    //no matching
+                    ans = false;
+                }
+
+                curr[j] = ans;
+            }
+            //shifting
+            prev = curr;
+        }
+        return prev[0];
+    }
+
+
     bool isMatch(string s, string p) {
         // int m = s.length();
         // int n = p.length();
@@ -118,7 +164,9 @@ public:
         // vector<vector<int>> dp(m+1 , vector<int>(n+1 , -1));
         // return solveUsingMem(s , p , 0 , 0 , dp);
 
-        return solveUsingTab(s , p);
+        // return solveUsingTab(s , p);
+
+        return solveUsingTabSO(s , p);
 
     }
 };
