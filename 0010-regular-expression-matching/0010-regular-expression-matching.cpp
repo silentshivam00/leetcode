@@ -24,8 +24,45 @@ public:
 
     }
 
+    bool solveUsingMem(string &s , string &p , int i , int j, vector<vector<int>> &dp){
+        //Base case
+        if(i >= s.length() && j >= p.length()) return true;
+
+        if(j >= p.length()) return false;
+
+        //step 3
+        if(dp[i][j] != -1) return dp[i][j];
+
+        bool currMatch = (i < s.length()) && (p[j] == '.' || s[i] == p[j]);
+        bool ans;
+        if(j+1 < p.length() && p[j+1] == '*'){
+            bool replaceWtihempty = solveUsingMem(s,p,i,j+2,dp);
+            bool replaceWithPreceding = (currMatch && solveUsingMem(s,p,i+1,j,dp));
+            ans = replaceWtihempty || replaceWithPreceding;
+        }
+        else if(currMatch){
+            ans = solveUsingMem(s,p,i+1,j+1,dp);
+        }
+        else{
+            // no match
+            ans = false;
+        }
+
+        dp[i][j] = ans;
+        return dp[i][j];
+
+    }
+
     bool isMatch(string s, string p) {
         
-        return solveUsingRE(s , p , 0 ,0);
+        // return solveUsingRE(s , p , 0 ,0);
+
+        int m = s.length();
+        int n = p.length();
+
+        //step 1
+        vector<vector<int>> dp(m+1 , vector<int>(n+1 , -1));
+        return solveUsingMem(s , p , 0 ,0 ,dp);
+
     }
 };
