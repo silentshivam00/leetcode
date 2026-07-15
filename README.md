@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/silentshivam00/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/silentshivam00/leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/silentshivam00/leetcode/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/silentshivam00/leetcode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/silentshivam00/leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
@@ -249,4 +250,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/silentshivam00/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/silentshivam00/leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
