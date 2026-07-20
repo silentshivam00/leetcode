@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/silentshivam00/leetcode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/silentshivam00/leetcode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/silentshivam00/leetcode/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/silentshivam00/leetcode/tree/master/0326-power-of-three) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/silentshivam00/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/silentshivam00/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/silentshivam00/leetcode/tree/master/0010-regular-expression-matching) |
 | [0044-wildcard-matching](https://github.com/silentshivam00/leetcode/tree/master/0044-wildcard-matching) |
 | [0231-power-of-two](https://github.com/silentshivam00/leetcode/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/silentshivam00/leetcode/tree/master/0326-power-of-three) |
 ## Number Theory
 |  |
 | ------- |
