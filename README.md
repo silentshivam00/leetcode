@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/silentshivam00/leetcode/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/silentshivam00/leetcode/tree/master/0191-number-of-1-bits) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/silentshivam00/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/silentshivam00/leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Segment Tree
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/silentshivam00/leetcode/tree/master/0190-reverse-bits) |
+| [0191-number-of-1-bits](https://github.com/silentshivam00/leetcode/tree/master/0191-number-of-1-bits) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/silentshivam00/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Recursion
 |  |
