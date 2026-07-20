@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/silentshivam00/leetcode/tree/master/0001-two-sum) |
 | [0066-plus-one](https://github.com/silentshivam00/leetcode/tree/master/0066-plus-one) |
+| [0088-merge-sorted-array](https://github.com/silentshivam00/leetcode/tree/master/0088-merge-sorted-array) |
 | [0200-number-of-islands](https://github.com/silentshivam00/leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/silentshivam00/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/silentshivam00/leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/silentshivam00/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0088-merge-sorted-array](https://github.com/silentshivam00/leetcode/tree/master/0088-merge-sorted-array) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/silentshivam00/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/silentshivam00/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/silentshivam00/leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/silentshivam00/leetcode/tree/master/0088-merge-sorted-array) |
 | [0354-russian-doll-envelopes](https://github.com/silentshivam00/leetcode/tree/master/0354-russian-doll-envelopes) |
 | [1288-remove-covered-intervals](https://github.com/silentshivam00/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/silentshivam00/leetcode/tree/master/1331-rank-transform-of-an-array) |
