@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/silentshivam00/leetcode/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/silentshivam00/leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/silentshivam00/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/silentshivam00/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/silentshivam00/leetcode/tree/master/0010-regular-expression-matching) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/silentshivam00/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0044-wildcard-matching](https://github.com/silentshivam00/leetcode/tree/master/0044-wildcard-matching) |
+| [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/silentshivam00/leetcode/tree/master/0076-minimum-window-substring) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/silentshivam00/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/silentshivam00/leetcode/tree/master/1143-longest-common-subsequence) |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/silentshivam00/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Recursion
 |  |
@@ -280,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [1260-shift-2d-grid](https://github.com/silentshivam00/leetcode/tree/master/1260-shift-2d-grid) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/silentshivam00/leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Combinatorics
