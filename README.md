@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/silentshivam00/leetcode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/silentshivam00/leetcode/tree/master/0202-happy-number) |
+| [0231-power-of-two](https://github.com/silentshivam00/leetcode/tree/master/0231-power-of-two) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/silentshivam00/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/silentshivam00/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -294,12 +295,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/silentshivam00/leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/silentshivam00/leetcode/tree/master/0191-number-of-1-bits) |
+| [0231-power-of-two](https://github.com/silentshivam00/leetcode/tree/master/0231-power-of-two) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/silentshivam00/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Recursion
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/silentshivam00/leetcode/tree/master/0010-regular-expression-matching) |
 | [0044-wildcard-matching](https://github.com/silentshivam00/leetcode/tree/master/0044-wildcard-matching) |
+| [0231-power-of-two](https://github.com/silentshivam00/leetcode/tree/master/0231-power-of-two) |
 ## Number Theory
 |  |
 | ------- |
