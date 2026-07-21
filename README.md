@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/silentshivam00/leetcode/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/silentshivam00/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/silentshivam00/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0290-word-pattern](https://github.com/silentshivam00/leetcode/tree/master/0290-word-pattern) |
 | [1331-rank-transform-of-an-array](https://github.com/silentshivam00/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/silentshivam00/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/silentshivam00/leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/silentshivam00/leetcode/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/silentshivam00/leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/silentshivam00/leetcode/tree/master/0125-valid-palindrome) |
+| [0290-word-pattern](https://github.com/silentshivam00/leetcode/tree/master/0290-word-pattern) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/silentshivam00/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/silentshivam00/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/silentshivam00/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
