@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0392-is-subsequence](https://github.com/silentshivam00/leetcode/tree/master/0392-is-subsequence) |
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1143-longest-common-subsequence](https://github.com/silentshivam00/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/silentshivam00/leetcode/tree/master/1301-number-of-paths-with-max-score) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/silentshivam00/leetcode/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/silentshivam00/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/silentshivam00/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/silentshivam00/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/silentshivam00/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0354-russian-doll-envelopes](https://github.com/silentshivam00/leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
 | [1260-shift-2d-grid](https://github.com/silentshivam00/leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/silentshivam00/leetcode/tree/master/1288-remove-covered-intervals) |
@@ -327,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
 ## Stack
 |  |
 | ------- |
