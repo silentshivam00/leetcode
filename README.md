@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [1140-stone-game-ii](https://github.com/silentshivam00/leetcode/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/silentshivam00/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/silentshivam00/leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1406-stone-game-iii](https://github.com/silentshivam00/leetcode/tree/master/1406-stone-game-iii) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/silentshivam00/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [1140-stone-game-ii](https://github.com/silentshivam00/leetcode/tree/master/1140-stone-game-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/silentshivam00/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/silentshivam00/leetcode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/silentshivam00/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0405-convert-a-number-to-hexadecimal](https://github.com/silentshivam00/leetcode/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/silentshivam00/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/silentshivam00/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/silentshivam00/leetcode/tree/master/1510-stone-game-iv) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/silentshivam00/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -90,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
 | [1130-minimum-cost-tree-from-leaf-values](https://github.com/silentshivam00/leetcode/tree/master/1130-minimum-cost-tree-from-leaf-values) |
+| [1140-stone-game-ii](https://github.com/silentshivam00/leetcode/tree/master/1140-stone-game-ii) |
 | [1260-shift-2d-grid](https://github.com/silentshivam00/leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/silentshivam00/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/silentshivam00/leetcode/tree/master/1301-number-of-paths-with-max-score) |
@@ -357,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0375-guess-number-higher-or-lower-ii](https://github.com/silentshivam00/leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0486-predict-the-winner](https://github.com/silentshivam00/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/silentshivam00/leetcode/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/silentshivam00/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/silentshivam00/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/silentshivam00/leetcode/tree/master/1510-stone-game-iv) |
 ## Stack
@@ -442,11 +447,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimax
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/silentshivam00/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/silentshivam00/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/silentshivam00/leetcode/tree/master/1510-stone-game-iv) |
 ## Zero-Sum Game
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/silentshivam00/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/silentshivam00/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/silentshivam00/leetcode/tree/master/1510-stone-game-iv) |
 ## Nim Game
